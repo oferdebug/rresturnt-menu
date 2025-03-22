@@ -1,3 +1,53 @@
-.option{
-    
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+h1 {
+    margin-bottom: 5px;
+}
+.description {
+    margin-bottom: 15px;
+}
+.header {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.section {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    position: relative;
+}
+.section-title {
+    position: relative;
+    top: -20px;
+    background: white;
+    display: inline-block;
+    padding: 0 5px;
+    font-weight: bold;
+}
+.option {
+    margin: 5px 0;
+}
+.day {
+    font-weight: bold;
+    margin-top: 10px;
+}
+input[type="text"] {
+    width: 150px;
+    padding: 5px;
+}
+hr {
+    margin: 15px 0;
+    border-top: 1px solid #ddd;
+}
+select {
+    padding: 5px;
+    width: 240px;
+}
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
 }

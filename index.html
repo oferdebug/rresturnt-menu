@@ -8,63 +8,151 @@
     <title>Dado Tea Lunch Special</title>
 </head>
 <body>
-    <h1>Dado Tea Launch Special</h1>
-    <div class="secription">
-        Monday Through Friday<br>
-        11am-5pm<br>
-        $10.99 plus tax
+    <h1>Alpine Garden Lunch Special</h1>
+    <div class="description">
+        Tuesday Through Saturday<br>
+        10am-4pm<br>
+        $12.95 plus tax
     </div>
 
-
-    <div class="header">Includes Sandwich,Snack, And Drink</div>
-
+    <div class="header">Includes Artisan Wrap, Side, and Beverage</div>
 
     <div class="section">
-        <div class="section-title">Order Information</div>
-    </div>
-    <div>
-        <label for="name">Name</label><br>
-        <input type="text" id="name" name="name"><br><br>
+        <div class="section-title">Order Details</div>
+        <div>
+            <label for="name">Guest Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name"><br><br>
 
-        <div class="option">
-            <input type="radio" id="here" name="orderType" value="here">
-            <label for="here">Here</label>
-        </div>
+            <div class="option">
+                <input type="radio" id="dine-in" name="orderType" value="dine-in">
+                <label for="dine-in">Dine In</label>
+            </div>
 
-        <div class="option">
-            <input type="radio" id="togo" name="orderType" value="togo">
-            <label for="togo">To Go</label>
-        </div>
+            <div class="option">
+                <input type="radio" id="takeout" name="orderType" value="takeout">
+                <label for="takeout">Takeout</label>
+            </div>
         </div>
     </div>
 
     <div class="section">
-        <div class="section-title">Sandwiches</div>
+        <div class="section-title">Artisan Wraps</div>
 
-
-        <div class="day">Monday</div>
-        <div class="option">
-            <input type="radio" id="tomato" name="mondaySandwich" value="tomato">
-            <lbael for="tomato">Tomato Mozzarella</lbael>
-        </div>
-        <div class="option">
-            <input type="radio" id="chickenSalad" name="mondaySandwich" value="chickenSalad">
-            <label for="chickenSalad">Chicken Salad</label>
-        </div>
-        
         <div class="day">Tuesday</div>
         <div class="option">
-            <input type="radio" id="greekWrap" name="thuesdaySandwich" value="greekWrap">
-            <label for="greekWrap">Greek Salad Wrap</label>
+            <input type="radio" id="avocado" name="tuesdayWrap" value="avocado">
+            <label for="avocado">Avocado Sunshine</label>
+        </div>
+        <div class="option">
+            <input type="radio" id="quinoa" name="tuesdayWrap" value="quinoa">
+            <label for="quinoa">Quinoa Veggie Bowl</label>
+        </div>
+        
+        <div class="day">Wednesday</div>
+        <div class="option">
+            <input type="radio" id="mediterranean" name="wednesdayWrap" value="mediterranean">
+            <label for="mediterranean">Mediterranean Falafel</label>
+        </div>
+        <div class="option">
+            <input type="radio" id="smoked-salmon" name="wednesdayWrap" value="smoked-salmon">
+            <label for="smoked-salmon">Smoked Salmon & Dill</label>
+        </div>
+        
+        <div class="day">Thursday</div>
+        <div class="option">
+            <input type="radio" id="pesto" name="thursdayWrap" value="pesto">
+            <label for="pesto">Pesto Portobello</label>
+        </div>
+        <div class="option">
+            <input type="radio" id="spicy-tofu" name="thursdayWrap" value="spicy-tofu">
+            <label for="spicy-tofu">Spicy Tofu Crunch</label>
         </div>
 
+        <div class="day">Friday</div>
         <div class="option">
-            <input type="radio" id="redPepper" name="wednesdaySandwich" value="redPepper">
-            <label for="redPepper">Red Pepper Hummus</label>
+            <input type="radio" id="alpine" name="fridayWrap" value="alpine">
+            <label for="alpine">Alpine Herb Chicken</label>
         </div>
         <div class="option">
-            < 
+            <input type="radio" id="roasted-veg" name="fridayWrap" value="roasted-veg">
+            <label for="roasted-veg">Roasted Veggie Medley</label>
+        </div>
+
+        <div class="day">Saturday</div>
+        <div class="option">
+            <input type="radio" id="wild-mushroom" name="saturdayWrap" value="wild-mushroom">
+            <label for="wild-mushroom">Wild Mushroom & Truffle</label>
+        </div>
+        <div class="option">
+            <input type="radio" id="berry-walnut" name="saturdayWrap" value="berry-walnut">
+            <label for="berry-walnut">Berry Walnut Chicken</label>
+        </div>
+
+        <hr>
+
+        <div class="option">
+            <input type="checkbox" id="glutenFree" name="glutenFree">
+            <label for="glutenFree">Organic Gluten-Free Wrap ($1.25 extra)</label>
+        </div>    
+    </div>
+
+    <div class="section">
+        <div class="section-title">Side</div>
+        <div class="snacks">Choose One Side</div>
+        <div class="option">
+            <input type="radio" id="seasonal-fruit" name="side" value="seasonal-fruit">
+            <label for="seasonal-fruit">Seasonal Fruit Cup</label>
+        </div>
+        <div class="option">
+            <input type="radio" id="quinoa-salad" name="side" value="quinoa-salad">
+            <label for="quinoa-salad">Quinoa Superfood Salad</label>
+        </div>
+        <div class="option">
+            <input type="radio" id="sweet-potato" name="side" value="sweet-potato">
+            <label for="sweet-potato">Sweet Potato Crisps</label>
+        </div>
+        <div class="option">
+            <input type="radio" id="veggie-sticks" name="side" value="veggie-sticks">
+            <label for="veggie-sticks">Garden Veggie Sticks</label>
         </div>
     </div>
+
+    <div class="section">
+        <div class="section-title">Beverage</div>
+        <div class="drinks">Select Beverage</div>
+        <select id="drink" name="drink">
+            <optgroup label="Mountain Herbal Teas">
+                <option value="alpine-chai" selected>Alpine Chai Blend</option>
+                <option value="lavender-dream">Lavender Dream</option>
+                <option value="iced-alpine-chai">Iced Alpine Chai Blend</option>
+                <option value="iced-lavender">Iced Lavender Dream</option>
+            </optgroup>
+            <optgroup label="Signature Infusions">
+                <option value="elderflower">Elderflower Infusion</option>
+                <option value="ginger-turmeric">Ginger Turmeric Elixir</option>
+                <option value="iced-elderflower">Iced Elderflower Infusion</option>
+                <option value="iced-ginger">Iced Ginger Turmeric Elixir</option>
+            </optgroup>
+            <optgroup label="Organic Coffee">
+                <option value="mountain-blend">Mountain Blend</option>
+                <option value="vanilla-bean">Vanilla Bean Infused</option>
+                <option value="iced-mountain">Iced Mountain Blend</option>
+                <option value="iced-vanilla">Iced Vanilla Bean</option>
+            </optgroup>
+            <optgroup label="Artisan Smoothies ($2.50 extra)">
+                <option value="berry-blast">Berry Antioxidant Blast</option>
+                <option value="green-goddess">Green Goddess Smoothie</option>
+            </optgroup>
+        </select>
+
+        <hr>
+
+        <div class="option">
+            <input type="checkbox" id="largeDrink" name="largeDrink">
+            <label for="largeDrink">Large Beverage ($1.25 Extra)</label>
+        </div>
+    </div>
+
+    <button type="submit">Place Order</button>
 </body>
 </html>
